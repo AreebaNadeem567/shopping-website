@@ -31,7 +31,7 @@ const Navbar = () => {
           role="navigation"
           className={`${
             isOpen ? "flex" : "hidden"
-          } lg:flex flex-col lg:flex-row lg:items-center w-full lg:w-auto bg-pink-400 lg:bg-transparent absolute top-full left-0 lg:relative lg:top-0 z-20 sm:px-4 md:px-6 lg:px-8 transition-all duration-300`}
+          } lg:flex flex-col lg:flex-row lg:items-center w-full lg:w-auto bg-pink-300 lg:bg-transparent absolute top-full left-0 lg:relative lg:top-0 z-20 sm:px-4 md:px-6 lg:px-8 transition-all duration-300`}
         >
           {["HOME", "ABOUT", "PRODUCTS", "CONTACT"].map((link) => (
             <Link
